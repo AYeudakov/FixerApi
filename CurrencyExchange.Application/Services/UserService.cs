@@ -68,7 +68,7 @@ public class UserService : IUserService
 	{
 		if (_applicationDbContext.Users.Any(user => user.Email == request.Email || user.Id == request.Id))
 		{
-			string message = $"User with email:{request.Email} already";
+			string message = $"User with email:{request.Email} or id: {request.Id} already exist";
 			_logger.LogWarning(message);
 
 			throw new UserAlreadyExistException(message);
