@@ -1,12 +1,12 @@
 using AutoFixture;
 using AutoFixture.NUnit3;
 using AutoMapper;
-using MeDirect.CurrencyExchange.Application.Common.Interfaces;
-using MeDirect.CurrencyExchange.Application.Entities;
-using MeDirect.CurrencyExchange.Application.Interfaces;
-using MeDirect.CurrencyExchange.Application.Services;
-using MeDirect.CurrencyExchange.Domain.Exceptions;
-using MeDirect.CurrencyExchange.Domain.Models;
+using CurrencyExchange.Application.Common.Interfaces;
+using CurrencyExchange.Application.Entities;
+using CurrencyExchange.Application.Interfaces;
+using CurrencyExchange.Application.Services;
+using CurrencyExchange.Domain.Exceptions;
+using CurrencyExchange.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,7 +14,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 
-namespace MeDirect.CurrencyExchange.Application.UnitTests.Services;
+namespace CurrencyExchange.Application.UnitTests.Services;
 
 public class ExchangeCurrencyServiceTest
 {

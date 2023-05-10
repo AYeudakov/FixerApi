@@ -1,6 +1,6 @@
-﻿using MeDirect.CurrencyExchange.Options;
+﻿using CurrencyExchange.Options;
 
-namespace MeDirect.CurrencyExchange.Extensions;
+namespace CurrencyExchange.Extensions;
 
 public static class ServiceHttpClientFactoryExtension
 {

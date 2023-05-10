@@ -1,18 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeDirect.CurrencyExchange", "MeDirect.CurrencyExchange\MeDirect.CurrencyExchange.csproj", "{E0B31B74-0944-46BF-9627-D20A397A0CC4}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyExchange", "MeDirect.CurrencyExchange\CurrencyExchange.csproj", "{E0B31B74-0944-46BF-9627-D20A397A0CC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeDirect.CurrencyExchange.Domain", "MeDirect.CurrencyExchange.Domain\MeDirect.CurrencyExchange.Domain.csproj", "{3238D6E0-98F3-41FE-92E5-46BFC4502862}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyExchange.Domain", "MeDirect.CurrencyExchange.Domain\CurrencyExchange.Domain.csproj", "{3238D6E0-98F3-41FE-92E5-46BFC4502862}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeDirect.CurrencyExchange.Infrastructure", "MeDirect.CurrencyExchange.Infrastructure\MeDirect.CurrencyExchange.Infrastructure.csproj", "{7D808FC6-C2B9-4FD7-9737-D46464CE5EB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyExchange.Infrastructure", "MeDirect.CurrencyExchange.Infrastructure\CurrencyExchange.Infrastructure.csproj", "{7D808FC6-C2B9-4FD7-9737-D46464CE5EB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeDirect.CurrencyExchange.Application", "MeDirect.CurrencyExchange.Application\MeDirect.CurrencyExchange.Application.csproj", "{3FFBDF06-4F9A-4EA9-9553-5C0F82002549}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyExchange.Application", "MeDirect.CurrencyExchange.Application\CurrencyExchange.Application.csproj", "{3FFBDF06-4F9A-4EA9-9553-5C0F82002549}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{80179184-3AAE-42A7-BE3B-93A3C67D6B78}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5B1E8CBE-8F05-4A72-BA46-BDAFC5891192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeDirect.CurrencyExchange.Application.UnitTests", "MeDirect.CurrencyExchange.Application.UnitTests\MeDirect.CurrencyExchange.Application.UnitTests.csproj", "{0D3DE65D-0654-4C39-80B5-3B372AC32504}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeDirect.CurrencyExchange.Application.UnitTests", "MeDirect.CurrencyExchange.Application.UnitTests\MeDirect.CurrencyExchange.Application.UnitTests.csproj", "{0D3DE65D-0654-4C39-80B5-3B372AC32504}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,11 +44,14 @@ Global
 		{0D3DE65D-0654-4C39-80B5-3B372AC32504}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D3DE65D-0654-4C39-80B5-3B372AC32504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{3FFBDF06-4F9A-4EA9-9553-5C0F82002549} = {80179184-3AAE-42A7-BE3B-93A3C67D6B78}
 		{E0B31B74-0944-46BF-9627-D20A397A0CC4} = {80179184-3AAE-42A7-BE3B-93A3C67D6B78}
 		{3238D6E0-98F3-41FE-92E5-46BFC4502862} = {80179184-3AAE-42A7-BE3B-93A3C67D6B78}
 		{7D808FC6-C2B9-4FD7-9737-D46464CE5EB0} = {80179184-3AAE-42A7-BE3B-93A3C67D6B78}
+		{3FFBDF06-4F9A-4EA9-9553-5C0F82002549} = {80179184-3AAE-42A7-BE3B-93A3C67D6B78}
 		{0D3DE65D-0654-4C39-80B5-3B372AC32504} = {5B1E8CBE-8F05-4A72-BA46-BDAFC5891192}
 	EndGlobalSection
 EndGlobal

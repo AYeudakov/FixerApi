@@ -1,16 +1,16 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using MeDirect.CurrencyExchange.Application.Common.Interfaces;
-using MeDirect.CurrencyExchange.Application.Entities;
-using MeDirect.CurrencyExchange.Application.Interfaces;
-using MeDirect.CurrencyExchange.Application.Requests;
-using MeDirect.CurrencyExchange.Domain.Exceptions;
+using CurrencyExchange.Application.Common.Interfaces;
+using CurrencyExchange.Application.Entities;
+using CurrencyExchange.Application.Interfaces;
+using CurrencyExchange.Application.Requests;
+using CurrencyExchange.Domain.Exceptions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 
-namespace MeDirect.CurrencyExchange.Application.Services;
+namespace CurrencyExchange.Application.Services;
 
 public class UserService : IUserService
 {

@@ -23,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MeDirect.CurrencyExchange.Application\MeDirect.CurrencyExchange.Application.csproj" />
+      <ProjectReference Include="..\MeDirect.CurrencyExchange.Application\CurrencyExchange.Application.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,5 +1,5 @@
 ﻿#pragma warning disable CS8618
-namespace MeDirect.CurrencyExchange.Options;
+namespace CurrencyExchange.Options;
 
 public class ProviderOptions
 {

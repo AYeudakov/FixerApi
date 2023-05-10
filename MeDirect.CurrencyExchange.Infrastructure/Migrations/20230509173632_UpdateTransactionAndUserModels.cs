@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace MeDirect.CurrencyExchange.Infrastructure.Migrations
+namespace CurrencyExchange.Infrastructure.Migrations
 {
     /// <inheritdoc />
     public partial class UpdateTransactionAndUserModels : Migration

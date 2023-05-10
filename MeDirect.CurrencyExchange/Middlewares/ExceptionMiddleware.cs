@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using System.Text.Json;
 
-namespace MeDirect.CurrencyExchange.Middlewares;
+namespace CurrencyExchange.Middlewares;
 
 public class ExceptionMiddleware
 {

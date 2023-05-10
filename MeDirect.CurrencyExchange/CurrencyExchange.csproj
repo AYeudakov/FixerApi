@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MeDirect.CurrencyExchange.Infrastructure\MeDirect.CurrencyExchange.Infrastructure.csproj" />
+      <ProjectReference Include="..\MeDirect.CurrencyExchange.Infrastructure\CurrencyExchange.Infrastructure.csproj" />
     </ItemGroup>
 
     <ItemGroup>

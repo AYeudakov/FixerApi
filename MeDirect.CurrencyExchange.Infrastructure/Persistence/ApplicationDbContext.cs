@@ -1,11 +1,11 @@
-﻿using MeDirect.CurrencyExchange.Application.Common.Interfaces;
-using MeDirect.CurrencyExchange.Application.Entities;
+﻿using CurrencyExchange.Application.Common.Interfaces;
+using CurrencyExchange.Application.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #pragma warning disable CS8618
 
-namespace MeDirect.CurrencyExchange.Infrastructure.Persistence;
+namespace CurrencyExchange.Infrastructure.Persistence;
 
 public class ApplicationDbContext: DbContext, IApplicationDbContext
 {

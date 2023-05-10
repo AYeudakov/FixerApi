@@ -1,7 +1,7 @@
-﻿using MeDirect.CurrencyExchange.Application.Entities;
-using MeDirect.CurrencyExchange.Application.Requests;
+﻿using CurrencyExchange.Application.Entities;
+using CurrencyExchange.Application.Requests;
 
-namespace MeDirect.CurrencyExchange.Application.Interfaces;
+namespace CurrencyExchange.Application.Interfaces;
 
 public interface IUserService
 {

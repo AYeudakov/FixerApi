@@ -1,7 +1,7 @@
-﻿using MeDirect.CurrencyExchange.Application.Entities;
+﻿using CurrencyExchange.Application.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace MeDirect.CurrencyExchange.Application.Common.Interfaces;
+namespace CurrencyExchange.Application.Common.Interfaces;
 
 public interface IApplicationDbContext
 {

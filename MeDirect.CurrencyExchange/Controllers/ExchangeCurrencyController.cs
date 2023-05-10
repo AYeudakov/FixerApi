@@ -1,8 +1,8 @@
-﻿using MeDirect.CurrencyExchange.Application.Entities;
-using MeDirect.CurrencyExchange.Application.Interfaces;
+﻿using CurrencyExchange.Application.Entities;
+using CurrencyExchange.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MeDirect.CurrencyExchange.Controllers;
+namespace CurrencyExchange.Controllers;
 
 [ApiController]
 [Route("api/v1")]

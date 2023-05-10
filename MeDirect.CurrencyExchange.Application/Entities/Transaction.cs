@@ -1,5 +1,5 @@
 ﻿#pragma warning disable CS8618
-namespace MeDirect.CurrencyExchange.Application.Entities;
+namespace CurrencyExchange.Application.Entities;
 
 public class Transaction
 {

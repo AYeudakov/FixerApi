@@ -1,4 +1,6 @@
-﻿namespace MeDirect.CurrencyExchange.Domain.Models;
+﻿using System.Text.Json.Serialization;
+
+namespace CurrencyExchange.Domain.Models;
 
 public class TransactionInfo
 {
@@ -12,8 +14,14 @@ public class TransactionInfo
 public class Query
 {
     public decimal Amount { get; set; }
-    public DomainCurrency From { get; set; }
-    public DomainCurrency To { get; set; }
+
+	[JsonConverter(typeof(JsonStringEnumConverter))]
+
+	public DomainCurrency From { get; set; }
+
+	[JsonConverter(typeof(JsonStringEnumConverter))]
+
+	public DomainCurrency To { get; set; }
 }
 
 public class Info

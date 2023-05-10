@@ -1,11 +1,11 @@
-﻿using MeDirect.CurrencyExchange.Application.Entities;
-using MeDirect.CurrencyExchange.Application.Interfaces;
-using MeDirect.CurrencyExchange.Application.Requests;
-using MeDirect.CurrencyExchange.Options;
+﻿using CurrencyExchange.Application.Entities;
+using CurrencyExchange.Application.Interfaces;
+using CurrencyExchange.Application.Requests;
+using CurrencyExchange.Options;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MeDirect.CurrencyExchange.Controllers;
+namespace CurrencyExchange.Controllers;
 
 [ApiController]
 [AllowAnonymous]

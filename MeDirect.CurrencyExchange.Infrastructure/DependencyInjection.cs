@@ -1,10 +1,10 @@
 ﻿using System.Reflection;
-using MeDirect.CurrencyExchange.Infrastructure.Persistence;
+using CurrencyExchange.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace MeDirect.CurrencyExchange.Infrastructure;
+namespace CurrencyExchange.Infrastructure;
 
 public static class DependencyInjection
 {

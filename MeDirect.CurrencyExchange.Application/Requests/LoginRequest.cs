@@ -1,5 +1,5 @@
 ﻿#pragma warning disable CS8618
-namespace MeDirect.CurrencyExchange.Application.Requests;
+namespace CurrencyExchange.Application.Requests;
 
 public class LoginRequest
 {

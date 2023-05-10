@@ -1,7 +1,7 @@
-﻿using MeDirect.CurrencyExchange.Application.Entities;
-using MeDirect.CurrencyExchange.Domain.Models;
+﻿using CurrencyExchange.Application.Entities;
+using CurrencyExchange.Domain.Models;
 
-namespace MeDirect.CurrencyExchange.Application.Interfaces;
+namespace CurrencyExchange.Application.Interfaces;
 
 public interface IExchangeCurrencyService
 {

@@ -1,4 +1,4 @@
-﻿namespace MeDirect.CurrencyExchange.Domain.Exceptions;
+﻿namespace CurrencyExchange.Domain.Exceptions;
 
 public class NumberOfRequestExceededException : Exception
 {

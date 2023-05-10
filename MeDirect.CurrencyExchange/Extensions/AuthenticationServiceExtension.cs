@@ -1,9 +1,9 @@
 ﻿using System.Text;
-using MeDirect.CurrencyExchange.Options;
+using CurrencyExchange.Options;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 
-namespace MeDirect.CurrencyExchange.Extensions;
+namespace CurrencyExchange.Extensions;
 
 public static class AuthenticationServiceExtension
 {

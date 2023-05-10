@@ -1,17 +1,21 @@
 using System.Reflection;
-using MeDirect.CurrencyExchange.Application.Common.Interfaces;
-using MeDirect.CurrencyExchange.Application.Interfaces;
-using MeDirect.CurrencyExchange.Application.Services;
-using MeDirect.CurrencyExchange.Extensions;
-using MeDirect.CurrencyExchange.Infrastructure;
-using MeDirect.CurrencyExchange.Infrastructure.Persistence;
-using MeDirect.CurrencyExchange.Middlewares;
-using MeDirect.CurrencyExchange.Options;
+using System.Text.Json.Serialization;
+using CurrencyExchange.Application.Common.Interfaces;
+using CurrencyExchange.Application.Interfaces;
+using CurrencyExchange.Application.Services;
+using CurrencyExchange.Extensions;
+using CurrencyExchange.Infrastructure;
+using CurrencyExchange.Infrastructure.Persistence;
+using CurrencyExchange.Middlewares;
+using CurrencyExchange.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 var logger = GetLogger(builder);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+	.AddJsonOptions(options =>
+		options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
+
 // can be setted on base of appsettings info, for now just 1 min
 builder.Services.AddMemoryCache(action => action.ExpirationScanFrequency = TimeSpan.FromMinutes(1));
 
@@ -60,7 +64,7 @@ try
 catch (Exception e)
 {
     logger.LogError("{serviceName} service failed unexpectedly with exception: {exception}",
-        nameof(MeDirect.CurrencyExchange), e.Message);
+        nameof(CurrencyExchange), e.Message);
 }
 
 

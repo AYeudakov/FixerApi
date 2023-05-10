@@ -1,14 +1,14 @@
 ﻿using AutoMapper;
 using Flurl;
-using MeDirect.CurrencyExchange.Application.Common.Interfaces;
-using MeDirect.CurrencyExchange.Application.Entities;
-using MeDirect.CurrencyExchange.Application.Interfaces;
-using MeDirect.CurrencyExchange.Domain.Exceptions;
-using MeDirect.CurrencyExchange.Domain.Models;
+using CurrencyExchange.Application.Common.Interfaces;
+using CurrencyExchange.Application.Entities;
+using CurrencyExchange.Application.Interfaces;
+using CurrencyExchange.Domain.Exceptions;
+using CurrencyExchange.Domain.Models;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 
-namespace MeDirect.CurrencyExchange.Application.Services;
+namespace CurrencyExchange.Application.Services;
 
 public class ExchangeCurrencyService : IExchangeCurrencyService
 {

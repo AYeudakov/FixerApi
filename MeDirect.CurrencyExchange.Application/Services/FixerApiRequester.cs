@@ -1,12 +1,12 @@
 ﻿using System.Runtime.Serialization;
 using Flurl;
-using MeDirect.CurrencyExchange.Application.Entities;
-using MeDirect.CurrencyExchange.Application.Interfaces;
-using MeDirect.CurrencyExchange.Domain.Models;
+using CurrencyExchange.Application.Entities;
+using CurrencyExchange.Application.Interfaces;
+using CurrencyExchange.Domain.Models;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace MeDirect.CurrencyExchange.Application.Services;
+namespace CurrencyExchange.Application.Services;
 
 public class FixerApiRequester : IFixerApiRequester
 {

@@ -1,4 +1,4 @@
-﻿namespace MeDirect.CurrencyExchange.Application.Entities;
+﻿namespace CurrencyExchange.Application.Entities;
 
 public class TransactionCreationRequest
 {

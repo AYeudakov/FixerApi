@@ -1,4 +1,4 @@
-﻿namespace MeDirect.CurrencyExchange.Domain.Models;
+﻿namespace CurrencyExchange.Domain.Models;
 
 public enum DomainCurrency
 {

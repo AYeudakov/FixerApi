@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
 #pragma warning disable CS8618
-namespace MeDirect.CurrencyExchange.Application.Entities;
+namespace CurrencyExchange.Application.Entities;
 
 [SuppressMessage("ReSharper", "CollectionNeverUpdated.Global")]
 public class User

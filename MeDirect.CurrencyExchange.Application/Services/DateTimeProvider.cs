@@ -1,4 +1,4 @@
-﻿namespace MeDirect.CurrencyExchange.Application.Services;
+﻿namespace CurrencyExchange.Application.Services;
 
 public interface IDateTimeProvider
 {
